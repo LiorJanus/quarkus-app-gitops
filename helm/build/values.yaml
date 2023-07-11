@@ -1,0 +1,16 @@
+app:
+  name: quakrus-app
+  namespace: quakrus-app-dev
+  cluster: .apps.cluster-cl4w8.cl4w8.sandbox526.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/LiorJanus/quarkus-app
+  org: LiorJanus
+  name: quarkus-app
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: liorjanus
+  name: quakrus-app
